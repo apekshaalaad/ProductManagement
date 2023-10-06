@@ -25,7 +25,7 @@ namespace ProductManagement.Controllers
             {
 
                 await _categoryService.AddCategory(category);
-                return Ok("Category Added Successfully");
+                return Ok("Category Added");
 
             }
             catch (Exception ex)
